@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header style="text-align: center;">
+        <h1>Discount Price</h1>
+    </header>
+    <main>
+        <section style="text-align: center;">
+
+            <div style="height: 300px; width: 300px; margin: auto;margin-bottom: 20px;">
+                <img style="height: 100%; width: 100%;" src="image/dress.jpg">
+            </div>
+            <!-- actual price -->
+            <p style="font-size: 20px;">Price: <span id="actual-price">5000</span> tk</p>
+            <!-- input field -->
+            <input style="border-radius: 5px; border: none; background-color: #a0bef2;  margin-bottom: 20px; padding: 10px; font-size: 15px;" id="discount-input" type="text" placeholder="Type 'DISC30' and">
+            <!-- button -->
+            <button disabled style="margin-bottom: 20px; font-weight: 600; background-color: #9cdeff; border: none; border-radius: 5px; padding: 10px; font-size: 15px; color: #7a7a7a;" id="discount-btn">click to get 30% discount</button>
+            <!-- discount price -->
+            <p style="font-size: 25px; font-weight: 900; border: 1px solid rgb(253, 180, 192); padding: 10px; background-color: pink; margin: auto; width: 20%;">Pay <span id="dis-price">00</span> tk</p>
+        </section>
+    </main>
+
+<!--  30% kom korar formula 
+     = actual valu - ((30/100)* actual value )
+     = 
+-->
+
+    <script src="discount.js"></script>
+</body>
+</html>
